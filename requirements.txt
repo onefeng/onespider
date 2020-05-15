@@ -46,7 +46,7 @@ PyInstaller==3.6
 pylint==2.4.4
 pymongo==3.10.1
 PyMySQL==0.9.3
-pyOpenSSL==17.0.0
+pyOpenSSL==17.5.0
 pyparsing==2.2.0
 pyquery==1.4.1
 pyspider==0.3.10
