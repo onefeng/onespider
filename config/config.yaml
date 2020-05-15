@@ -1,0 +1,32 @@
+﻿# 基础表名
+base_name: analysis_business_list.business_list_
+# 数据源配置文件
+datasouce:
+  postgresql:
+    user: guosong
+    host: 
+    port: 5432
+    database: warehouse
+    password: 
+    timeout: 600
+  mysql:
+    host: 
+    port: 10099
+    password: 
+    database: db_base
+    user: root
+    charset:
+  mongoBD:
+    url: mongodb:
+    database: test
+  redis:
+    url: redis:
+# 邮件配置信息
+email:
+  email_host: smtp.163.com  #服务器地址
+  port: 25                  # 端口号
+  username:     # 发送者邮箱账号
+  passwd:                # 发送者邮箱密码
+  recv:                            # 收件人用此格式列举
+    - 1163
+
